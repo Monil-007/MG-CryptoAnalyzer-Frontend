@@ -99,7 +99,7 @@ const DispayTable = () => {
     useEffect(() => {
         async function fetchData() {
             console.log("haa bhaii aa gya yaha, radhe radhe!")
-            await fetch(`https://mg-crypto-analyzer-backend.onrender.com/`)
+            await fetch(`https://mg-crypto-analyzer-backend-tfec.onrender.com`)
                 .then((response) => response.json())
                 .then((actualData) => { dataAPI = actualData; });
             console.log("madhav ", dataAPI[0]);
